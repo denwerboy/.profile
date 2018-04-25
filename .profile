@@ -95,8 +95,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias ..='cd ..'
-alias art='php artisan'
-alias tinker='php artisan tinker'
 
 function port {
 	sudo lsof -i :$1
